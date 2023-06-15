@@ -29,6 +29,7 @@ $(call inherit-product, device/motorola/sm6375-common/common.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResFogos \
+    NfcResFogos \
     LineageSystemUIFogos \
     ProductFrameworksResFogos \
     SettingsProviderResFogos \
