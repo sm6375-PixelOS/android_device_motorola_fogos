@@ -313,8 +313,8 @@ vendor/etc/nfc_calibration.txt
 vendor/etc/vhw.xml
 
 # Sensors
-vendor/lib64/sensors.moto.so
-vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.moto.so;DISABLE_CHECKELF
+vendor/lib64/sensors.ssc.so;DISABLE_CHECKELF
 
 # Sensors Configs
 vendor/bin/capsense_reset
