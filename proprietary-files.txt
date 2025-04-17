@@ -440,8 +440,4 @@ vendor/etc/sensors/proto/tcs3708.proto
 vendor/etc/sensors/sns_reg_config
 
 # Thermal configs
-vendor/etc/thermal-engine-fogos-camera.conf
-vendor/etc/thermal-engine-fogos-game-normal.conf
-vendor/etc/thermal-engine-fogos-game-perf.conf
-vendor/etc/thermal-engine-fogos.conf
 vendor/etc/thermal-engine.conf
