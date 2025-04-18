@@ -96,6 +96,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-fogos-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos.conf
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
