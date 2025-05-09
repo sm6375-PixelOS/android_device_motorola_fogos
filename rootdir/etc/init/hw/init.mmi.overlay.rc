@@ -77,9 +77,6 @@ on boot
     chown root input /sys/class/sensors/Moto\ CapSense\ Ch3/poll_delay
     chown root input /sys/class/sensors/Moto\ CapSense\ Ch4/enable
     chown root input /sys/class/sensors/Moto\ CapSense\ Ch4/poll_delay
-    # Change ownership for touch gesture
-    chown root input /sys/class/sensors/dt-gesture/enable
-    chown root input /sys/class/sensors/dt-gesture/poll_delay
     # touch
     chown system system /sys/class/touchscreen/primary/interpolation
     chmod 0660 /sys/class/touchscreen/primary/interpolation
